@@ -58,17 +58,7 @@
   False	= gridpack !True = setting up the grid pack
   -1.0	= time_of_flight ! threshold (in mm) below which the invariant livetime is not written (-1 means not written)
   average	= event_norm ! average/sum. Normalization of the weight in the LHEF
-#*********************************************************************
-# Matching parameter (MLM only)
-#*********************************************************************
- 1 = ickkw            ! 0 no matching, 1 MLM
- 1.0 = alpsfact         ! scale factor for QCD emission vx
- False = chcluster        ! cluster only according to channel diag
- 5 = asrwgtflavor     ! highest quark flavor for a_s reweight
- True  = auto_ptj_mjj  ! Automatic setting of ptj and mjj if xqcut >0
-                                   ! (turn off for VBF and single top processes)
- 15.0   = xqcut   ! minimum kt jet measure between partons
-
+# To see MLM/CKKW  merging options: type "update MLM" or "update CKKW"
 
 #*********************************************************************
 #
